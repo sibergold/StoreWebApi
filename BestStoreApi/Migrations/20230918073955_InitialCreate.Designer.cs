@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BestStoreApi.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230524101648_FifthMigration")]
-    partial class FifthMigration
+    [Migration("20230918073955_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
